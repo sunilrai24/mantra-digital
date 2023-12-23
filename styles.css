@@ -131,5 +131,33 @@
   width: 75%;
 }
 
-.doctor-book-card-content .video-button {
+@media only screen and (max-width: 991px) {
+  .header-top {
+    display: none !important;
+  }
+  .navbar {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .navbar-section .register-support-button {
+    display: none;
+  }
+  .navbar-collapse {
+    background-color: #15558d;
+    z-index: 10;
+  }
+  .navbar-collapse .navbar-nav .nav-link.active {
+    color: #fff;
+  }
+
+  .Home1-lists {
+    margin-bottom: 20px;
+  }
+  .Home1-doctor {
+    padding: 25px 0px 0px 0px;
+  }
+  .patient-select #card-carousel .carousel-indicators {
+    margin-bottom: 4rem;
+    color: red;
+  }
 }
