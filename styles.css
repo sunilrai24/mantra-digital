@@ -1,0 +1,135 @@
+.header-top {
+  background: #035e89;
+  padding: 8px 30px;
+}
+.navbar-section {
+  align-items: center;
+  background-color: #fff !important;
+  height: 85px;
+  padding: 0 30px;
+}
+.nav-item-button {
+  border: 2px solid #ffbc34;
+  border-radius: 4px;
+  padding: 10px 15px;
+  text-align: center;
+  font-size: 15px;
+  color: #006291;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.nav-item-button:hover {
+  background-color: #035e89;
+  border-color: #06caea;
+  color: #fff;
+}
+.navbar-nav {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-left: 90px;
+}
+.navbar-nav > li {
+  margin-right: 20px;
+}
+.search-section {
+  justify-content: end;
+}
+.navbar-section ul li a:hover {
+  color: #09dca4 !important;
+}
+.register-icon {
+  color: #ffbc34;
+}
+.search-location input {
+  padding: 10px 35px 10px;
+}
+.search-button > button {
+  height: 46px;
+  width: 46px;
+}
+.Home1-doctor {
+  padding: 60px 0;
+}
+.patient-select {
+  background: #06caea;
+  padding: 49px 0px;
+}
+.form-section form {
+  padding: 8px 0;
+  background: #097687;
+}
+.zoom1 {
+  transition: transform 0.4s;
+}
+.zoom1:hover {
+  -ms-transform: scale(1.5);
+  transform: scale(1.2);
+}
+
+#maincarousel .carousel-indicators {
+  justify-content: flex-end;
+}
+
+#maincarousel .carousel-indicators button {
+  width: 10px;
+  height: 10px;
+  cursor: pointer;
+  background-color: #006291;
+  border: 1px solid #fff;
+  border-radius: 50%;
+}
+
+#maincarousel .carousel-indicators button.active {
+  background-color: #eab242;
+}
+
+#card-carousel .carousel-indicators {
+  justify-content: flex-end;
+  margin-bottom: 34px;
+  margin-right: 50px;
+  /* margin-bottom: 5.5rem;
+  margin-right: 7%; */
+}
+
+#card-carousel .carousel-indicators button {
+  width: 10px;
+  height: 10px;
+  cursor: pointer;
+  background-color: #006291;
+  border: 1px solid #fff;
+  border-radius: 50%;
+}
+
+#card-carousel .carousel-indicators button.active {
+  background-color: #eab242;
+}
+
+#card-carousel .carousel-inner .book-btn1 {
+  background-color: #006291;
+  border: 2px solid #006291;
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+  font-weight: 500;
+  padding: 6px 10px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+#card-carousel .carousel-inner .book-btn1:hover {
+  background-color: #01cae4;
+  border-color: #01cae4;
+  color: #ffffff;
+}
+
+.doctor-book-card-content {
+  position: absolute;
+  bottom: 8px;
+  right: 0;
+  width: 75%;
+}
+
+.doctor-book-card-content .video-button {
+}

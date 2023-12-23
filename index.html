@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./assets/fontawsome/css/all.min.css" />
+    <link rel="stylesheet" href="./styles.css" />
+    <!-- Bootstrap JS Bundle (Popper.js and Bootstrap JS) -->
+
+    <title>Mantra</title>
+  </head>
+  <body>
+    <div class="header-top d-flex">
+    </div>
+    <!-- Navbar content, including logo, navigation links, and buttons -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-section d-flex justify-content-center navbar-section">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a href="#" class="navbar-brand">
+            <img
+              src="https://seomantras.in/prxpro-web6/assets/img/logo/logo.jpg"
+              alt=""
+              class="img-fluid"
+            />
+          </a>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" href="#"> Find a Doctor </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">
+                  Video Consultation
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#"> Lab Test </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">
+                  Business Partner
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="blog-list.html"> Blog </a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle active"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  Login
+                  <i class="fas fa-chevron-down"></i>
+                </a>
+                <ul class="dropdown-menu">
+                  <li class="active">
+                    <a class="dropdown-item" href="#"> Patient </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">
+                      Doctor
+                    </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">
+                      Business Partners
+                    </a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link header-login" href="#">
+                <button class="btn btn-link text-black text-decoration-none d-flex align-items-center">
+                  <i class="fa fa-user fs-4 me-1 register-icon"></i>  
+                  <span>Register</span>
+                </button>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link header-login" href="#">
+                <button class="nav-item-button">Support</button>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    <!-- Navbar end -->
+  </div>
+    <!-- Doctor search form -->
+    <section class="section doctor-search-section d-none d-lg-block">
+        <div class="form-section">
+            <form action="#" class="row align-items-center justify-content-center search-section">
+            <div class="col-md-6 col-lg-3">
+              <div class="form-group search-location">
+                <input type="text" class="form-control" placeholder="Search Location">
+                <span class="form-text"></span>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <div class="form-group search-location">
+                <input type="text" class="form-control" placeholder="Search by Doctor">
+                <span class="form-text"></span>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-1 search-button">
+              <button type="submit" class="btn btn-warning btn-block">
+                <i class="fas fa-search"></i> <span></span>
+              </button>
+            </div>
+            <div class="col-md-6 col-lg-2">
+              <button type="button" class="btn btn-danger btn-block">
+                Download Prxpro App
+              </button>
+            </div>
+          </form></div>
+          
+      </div>
+    </section>
+    <!-- Doctor search form end -->
+    <!-- Carousel content with indicators and items -->
+    <div id="maincarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#maincarousel" data-bs-slide-to="0" class="active w-" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#maincarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#maincarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+        <div class="carousel-inner">
+          <div class="carousel-item">
+            <img src="https://seomantras.in/prxpro-web6/assets/img/banner/banner2.jpg" class="d-block w-100" alt="Welcome To PRX">
+          </div>
+          <div class="carousel-item active">
+            <img src="https://seomantras.in/prxpro-web6/assets/img/banner/banner1.jpg" class="d-block w-100" alt="Welcome To PRX">
+          </div>
+          <div class="carousel-item">
+            <img src="https://seomantras.in/prxpro-web6/assets/img/banner/banner3.jpg" class="d-block w-100" alt="Welcome To PRX">
+          </div>
+        </div>
+    </div>
+    <!-- Carousel end -->
+    <!-- Container with rows of Home1 lists -->
+    <section class="Home1-doctor">
+        <div class="container">
+          <div class="row">
+            <!-- List Start -->
+            <div class="col-6 col-md-3 Home1-lists zoom1">
+              <a href="#">
+                <img src="https://seomantras.in/prxpro-web6/assets/img/home/homemain1.png" alt="" class="img-fluid">
+              </a>
+            </div>
+            <!-- List End -->
+      
+            <!-- List Start -->
+            <div class="col-6 col-md-3 Home1-lists zoom1">
+              <a href="#">
+                <img src="https://seomantras.in/prxpro-web6/assets/img/home/homemain2.png" alt="" class="img-fluid">
+              </a>
+            </div>
+            <!-- List End -->
+      
+            <!-- List Start -->
+            <div class="col-6 col-md-3 Home1-lists zoom1">
+              <a href="#">
+                <img src="https://seomantras.in/prxpro-web6/assets/img/home/homemain3.png" alt="" class="img-fluid">
+              </a>
+            </div>
+            <!-- List End -->
+      
+            <!-- List Start -->
+            <div class="col-6 col-md-3 Home1-lists zoom1">
+              <a href="#">
+                <img src="https://seomantras.in/prxpro-web6/assets/img/home/homemain4.png" alt="" class="img-fluid">
+              </a>
+            </div>
+            <!-- List End -->
+      
+          </div>
+        </div>
+      </section>
+    <!-- Container with rows of Home1 lists End -->
+    <!-- Container with two columns, each containing a carousel -->
+      <section class="patient-select">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <div id="card-carousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#maincarousel" data-bs-slide-to="0" class="active w-" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#maincarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#maincarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="row col-lg-12 mb-3">
+                      <div class="round-image card1 text-center doctor-book-card position-relative">
+                        <img src="https://seomantras.in/prxpro-web6/assets/img/home-slider/image-banner1.jpeg" alt="" class="img-fluid">
+                        <div class="doctor-book-card-content  tile-card-content-1">
+                          <div class="video-button">
+                            
+                              <a href="#" class="btn book-btn1 px-2 py-1" tabindex="0">
+                                <i class="fa fa-video-camera" aria-hidden="true"></i>
+                              </a>
+                            
+                            
+                              <a href="#" class="btn book-btn1 px-2 py-1" tabindex="0">
+                                Book Your Consultation Now
+                              </a>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <!-- Repeat similar structure for the second item -->
+                    <div class="row col-lg-12 mb-3">
+                      <div class="round-image card1 text-center doctor-book-card position-relative">
+                        <img src="https://seomantras.in/prxpro-web6/assets/img/home-slider/image-banner1.jpeg" alt="" class="img-fluid">
+                        <div class="doctor-book-card-content  tile-card-content-1">
+                          <div class="video-button">
+                            
+                              <a href="#" class="btn book-btn1 px-2 py-1" tabindex="0">
+                                <i class="fa fa-video-camera rounded-circle" aria-hidden="true"></i>
+                              </a>
+                            
+                            
+                              <a href="#" class="btn book-btn1 px-2 py-1" tabindex="0">
+                                Book Your Consultation Now
+                              </a>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <!-- Repeat similar structure for the third item -->
+                    <div class="row col-lg-12 mb-3">
+                      <div class="round-image card1 text-center doctor-book-card position-relative">
+                        <img src="https://seomantras.in/prxpro-web6/assets/img/home-slider/image-banner1.jpeg" alt="" class="img-fluid">
+                        <div class="doctor-book-card-content  tile-card-content-1">
+                          <div class="video-button">
+                            
+                              <a href="#" class="btn book-btn1 px-2 py-1" tabindex="0">
+                                <i class="fa fa-video-camera" aria-hidden="true"></i>
+                              </a>
+                            
+                            
+                              <a href="#" class="btn book-btn1 px-2 py-1" tabindex="0">
+                                Book Your Consultation Now
+                              </a>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+      
+            <div class="col-md-6">
+              <div id="card-carousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#maincarousel" data-bs-slide-to="0" class="active w-" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#maincarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#maincarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <!-- Repeat similar structure for the first item -->
+                    <div class="row col-lg-12 mb-3">
+                      <div class="round-image card1 text-center doctor-book-card position-relative">
+                        <img src="https://seomantras.in/prxpro-web6/assets/img/home-slider/image-banner1.jpeg" alt="" class="img-fluid">
+                        <div class="doctor-book-card-content  tile-card-content-1">
+                          <div class="video-button">
+                            
+                              <a href="#" class="btn book-btn1 px-2 py-1" tabindex="0">
+                                <i class="fa fa-video-camera" aria-hidden="true"></i>
+                              </a>
+                            
+                            
+                              <a href="#" class="btn book-btn1 px-2 py-1" tabindex="0">
+                                Book Your Consultation Now
+                              </a>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <!-- Repeat similar structure for the second item -->
+                    <div class="row col-lg-12 mb-3">
+                      <div class="round-image card1 text-center doctor-book-card position-relative">
+                        <img src="https://seomantras.in/prxpro-web6/assets/img/home-slider/image-banner1.jpeg" alt="" class="img-fluid">
+                        <div class="doctor-book-card-content  tile-card-content-1">
+                          <div class="video-button">
+                            
+                              <a href="#" class="btn book-btn1 px-2 py-1" tabindex="0">
+                                <i class="fa fa-video-camera" aria-hidden="true"></i>
+                              </a>
+                            
+                            
+                              <a href="#" class="btn book-btn1 px-2 py-1" tabindex="0">
+                                Book Your Consultation Now
+                              </a>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <!-- Repeat similar structure for the third item -->
+                    <div class="row col-lg-12 mb-3">
+                      <div class="round-image card1 text-center doctor-book-card position-relative">
+                        <img src="https://seomantras.in/prxpro-web6/assets/img/home-slider/image-banner1.jpeg" alt="" class="img-fluid">
+                        <div class="doctor-book-card-content  tile-card-content-1">
+                          <div class="video-button">
+                            
+                              <a href="#" class="btn book-btn1 px-2 py-1" tabindex="0">
+                                <i class="fa fa-video-camera" aria-hidden="true"></i>
+                              </a>
+                            
+                            
+                              <a href="#" class="btn book-btn1 px-2 py-1" tabindex="0">
+                                Book Your Consultation Now
+                              </a>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    <!-- Container with two columns, each containing a carousel End -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
